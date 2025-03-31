@@ -64,6 +64,7 @@ body{
 .headContent-text{
     margin-right: 30px;
     width: 60%;
+    padding-top: 20px;
 }
 
 .headContent-text p{
@@ -86,6 +87,7 @@ body{
     width: 90%;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .servicios h4{
@@ -104,3 +106,28 @@ body{
     text-align: center;
     font-size: 15px;
 }
+
+.diferentes{
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 20px 100px 30px 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.diferentes h4{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.diferentes .text{
+    width: 50%;
+    text-align: center;
+}
+
+.diferentes p{
+    font-style: italic;
+}
+
