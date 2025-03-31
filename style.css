@@ -1,6 +1,9 @@
 body{
     margin:0;
     font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .head{
@@ -12,7 +15,7 @@ body{
 
 .navBar{
     margin-top: 10px;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +39,7 @@ body{
 }
 
 .headContent{
-    width: 80%;
+    width: 90%;
     display: flex;
     color: white;
     margin-bottom: 30px;
@@ -49,9 +52,13 @@ body{
 
 }
 .headContent img{
-    width: 50%;
+    width: 70%;
     height: auto;
     border-radius: 20px;
+}
+
+.quienesSomos span{
+    font-weight: 900;
 }
 
 .headContent-text{
@@ -73,3 +80,27 @@ body{
     text-align: center;
 }
 
+.servicios{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+.servicios h4{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.lista-servicios{
+    display: flex;
+    gap: 40px;
+    text-align: justify;
+}
+
+.lista-servicios h5{
+    text-align: center;
+    font-size: 15px;
+}
