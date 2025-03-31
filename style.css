@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    font-family: 'Roboto';
+}
+
+.head{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBar{
+    margin-top: 10px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.navBar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+.navBar a{
+    text-decoration: none;
+
+    color: white;
+}
+
+.logoImagen{
+    width: 150px;
+    height: auto;
+}
+
+.headContent{
+    width: 80%;
+    display: flex;
+    color: white;
+    margin-bottom: 30px;
+}
+.headContent-img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.headContent img{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.headContent-text{
+    margin-right: 30px;
+    width: 60%;
+}
+
+.headContent-text p{
+    text-align: justify;
+}
+.misionVision{
+    display: flex;
+    gap: 100px;
+    align-items: center;    
+    justify-content: center;
+}
+
+.headContent-text h3, .headContent-text h4{
+    text-align: center;
+}
+
